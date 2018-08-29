@@ -1,0 +1,1622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14503A504B533AEE65B234C3 /* libPods-Ganelt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 962855F9E7FE4B388B438801 /* libPods-Ganelt.a */; };
+		2207CD6420627F2100CF4E76 /* GaneltMySendFormationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2207CD6320627F2100CF4E76 /* GaneltMySendFormationView.m */; };
+		22CF9B5B201479EB001E1BB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9B5A201479EB001E1BB2 /* AppDelegate.m */; };
+		22CF9B63201479EB001E1BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22CF9B62201479EB001E1BB2 /* Assets.xcassets */; };
+		22CF9B66201479EB001E1BB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CF9B64201479EB001E1BB2 /* LaunchScreen.storyboard */; };
+		22CF9B69201479EB001E1BB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9B68201479EB001E1BB2 /* main.m */; };
+		22CF9B73201479EB001E1BB2 /* GaneltTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9B72201479EB001E1BB2 /* GaneltTests.m */; };
+		22CF9B7E201479EB001E1BB2 /* GaneltUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9B7D201479EB001E1BB2 /* GaneltUITests.m */; };
+		22CF9BA52014821B001E1BB2 /* GaneltParentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9BA42014821B001E1BB2 /* GaneltParentsViewController.m */; };
+		22CF9BA82014822E001E1BB2 /* GaneltSendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9BA72014822E001E1BB2 /* GaneltSendViewController.m */; };
+		22CF9BAE20148253001E1BB2 /* GaneltMyCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9BAD20148253001E1BB2 /* GaneltMyCenterViewController.m */; };
+		22CF9BB820148477001E1BB2 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9BB620148477001E1BB2 /* TabBarViewController.m */; };
+		22CF9BC02014865C001E1BB2 /* TabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9BBF2014865C001E1BB2 /* TabBarButton.m */; };
+		22CF9BC3201486AB001E1BB2 /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9BC1201486AB001E1BB2 /* BaseNavigationViewController.m */; };
+		22CF9BC720148842001E1BB2 /* GaneltMailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9BC620148842001E1BB2 /* GaneltMailViewController.m */; };
+		22CF9BCA20163532001E1BB2 /* UIColor+categary.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9BC820163532001E1BB2 /* UIColor+categary.m */; };
+		22CF9BCE20176A48001E1BB2 /* GaneltMailThingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9BCD20176A48001E1BB2 /* GaneltMailThingCell.m */; };
+		22CF9BD120176D92001E1BB2 /* GaneltMailAddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9BD020176D92001E1BB2 /* GaneltMailAddressCell.m */; };
+		22CF9BD420176F78001E1BB2 /* GaneltMailChargeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9BD320176F78001E1BB2 /* GaneltMailChargeCell.m */; };
+		22CF9BD620176F87001E1BB2 /* GaneltMailChargeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22CF9BD520176F87001E1BB2 /* GaneltMailChargeCell.xib */; };
+		22CF9BDA2018B2C6001E1BB2 /* GaneltMyCenterHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9BD92018B2C6001E1BB2 /* GaneltMyCenterHeaderCell.m */; };
+		22CF9BDD2018B355001E1BB2 /* GaneltMyCenterItemListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9BDC2018B355001E1BB2 /* GaneltMyCenterItemListCell.m */; };
+		22CF9BE02018B447001E1BB2 /* UIScrollView+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9BDF2018B447001E1BB2 /* UIScrollView+category.m */; };
+		22CF9BEA2018B814001E1BB2 /* NSString+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9BE92018B814001E1BB2 /* NSString+Path.m */; };
+		22CF9BF02018BA78001E1BB2 /* GaneltUserFormation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9BEE2018BA78001E1BB2 /* GaneltUserFormation.m */; };
+		22CF9BF32018BB3A001E1BB2 /* GaneltPersonAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9BF22018BB3A001E1BB2 /* GaneltPersonAccount.m */; };
+		22CF9BF52018BBEC001E1BB2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CF9BF42018BBEC001E1BB2 /* libz.tbd */; };
+		22CF9BF72018BC13001E1BB2 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CF9BF62018BC12001E1BB2 /* libstdc++.tbd */; };
+		22CF9BFB2018BD8E001E1BB2 /* GaneltBasicInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9BFA2018BD8E001E1BB2 /* GaneltBasicInformationViewController.m */; };
+		22CF9BFF2018C144001E1BB2 /* GaneltAccountHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9BFE2018C144001E1BB2 /* GaneltAccountHeaderView.m */; };
+		22CF9C062018C2EC001E1BB2 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9C042018C2EC001E1BB2 /* GTMBase64.m */; };
+		22CF9C072018C2EC001E1BB2 /* Base64Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9C052018C2EC001E1BB2 /* Base64Util.m */; };
+		22CF9C0C2018C319001E1BB2 /* DESTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9C092018C319001E1BB2 /* DESTool.m */; };
+		22CF9C0D2018C319001E1BB2 /* MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9C0B2018C319001E1BB2 /* MD5.m */; };
+		22CF9C11201C122F001E1BB2 /* GaneltAFnetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9C10201C122F001E1BB2 /* GaneltAFnetWorkManager.m */; };
+		22CF9C17201C14EB001E1BB2 /* NSDictionary+GaneltCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9C16201C14EB001E1BB2 /* NSDictionary+GaneltCode.m */; };
+		22CF9C1A201C166D001E1BB2 /* NSDictionary+extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9C18201C166D001E1BB2 /* NSDictionary+extention.m */; };
+		22CF9C1E201C180A001E1BB2 /* MBProgressHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9C1C201C180A001E1BB2 /* MBProgressHUDManager.m */; };
+		22CF9C23201C1901001E1BB2 /* GaneltLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9C21201C1901001E1BB2 /* GaneltLoginViewController.m */; };
+		22CF9C24201C1901001E1BB2 /* GaneltLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22CF9C22201C1901001E1BB2 /* GaneltLoginViewController.xib */; };
+		22CF9C28201C1AB2001E1BB2 /* JudgeMobileNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9C26201C1AB2001E1BB2 /* JudgeMobileNumber.m */; };
+		22CF9C2C201C1EB8001E1BB2 /* GaneltGoodsFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9C2B201C1EB8001E1BB2 /* GaneltGoodsFormViewController.m */; };
+		22CF9C30201C1F14001E1BB2 /* GaneltGoodsFormHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9C2F201C1F14001E1BB2 /* GaneltGoodsFormHeadCell.m */; };
+		22CF9C33201C1FED001E1BB2 /* GaneltGoodsFormItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9C32201C1FED001E1BB2 /* GaneltGoodsFormItemCollectionViewCell.m */; };
+		22CF9C372026E3D3001E1BB2 /* GaneltCoreLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9C362026E3D3001E1BB2 /* GaneltCoreLocationManager.m */; };
+		22CF9C392026E7BD001E1BB2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CF9C382026E7BD001E1BB2 /* MapKit.framework */; };
+		22CF9C412026F3FD001E1BB2 /* GaneltMKAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9C402026F3FD001E1BB2 /* GaneltMKAnnotation.m */; };
+		22CF9C442026F944001E1BB2 /* GaneltCustomMKAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CF9C422026F944001E1BB2 /* GaneltCustomMKAnnotationView.m */; };
+		22CFA229205BF566001E1BB2 /* ganeltBanner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22CFA228205BF566001E1BB2 /* ganeltBanner.jpg */; };
+		22CFA22D205CE822001E1BB2 /* GaneltSetingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CFA22C205CE822001E1BB2 /* GaneltSetingViewController.m */; };
+		22CFA231205CE941001E1BB2 /* GaneltSetItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CFA230205CE941001E1BB2 /* GaneltSetItemCell.m */; };
+		D13343CA2047E6890043D35E /* GaneltGoodsOtherFormationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D13343C92047E6890043D35E /* GaneltGoodsOtherFormationCell.m */; };
+		D1577F5D204680330055F1D0 /* GaneltAddressListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1577F5C204680330055F1D0 /* GaneltAddressListViewController.m */; };
+		D1577F612046816F0055F1D0 /* GaneltMailAddressListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1577F602046816F0055F1D0 /* GaneltMailAddressListCell.m */; };
+		D1577F64204683B60055F1D0 /* GaneltAddNewAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1577F63204683B60055F1D0 /* GaneltAddNewAddressViewController.m */; };
+		D1577F67204684020055F1D0 /* GaneltMailAddNewAddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1577F66204684020055F1D0 /* GaneltMailAddNewAddressCell.m */; };
+		D1577F6B2046866C0055F1D0 /* PickSelectview.m in Sources */ = {isa = PBXBuildFile; fileRef = D1577F6A2046866C0055F1D0 /* PickSelectview.m */; };
+		D1577F6F204686960055F1D0 /* CitySelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1577F6E204686960055F1D0 /* CitySelectView.m */; };
+		D1577F73204686C00055F1D0 /* DatePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1577F72204686C00055F1D0 /* DatePickView.m */; };
+		D1577F7E204688CD0055F1D0 /* Province.m in Sources */ = {isa = PBXBuildFile; fileRef = D1577F76204688CD0055F1D0 /* Province.m */; };
+		D1577F7F204688CD0055F1D0 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = D1577F79204688CD0055F1D0 /* Address.m */; };
+		D1577F80204688CD0055F1D0 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = D1577F7B204688CD0055F1D0 /* City.m */; };
+		D1577F81204688CD0055F1D0 /* Area.m in Sources */ = {isa = PBXBuildFile; fileRef = D1577F7D204688CD0055F1D0 /* Area.m */; };
+		D1577F8420468A110055F1D0 /* GaneltDetailAddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1577F8320468A110055F1D0 /* GaneltDetailAddressCell.m */; };
+		D1577FAD20469D7B0055F1D0 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1577FAB20469D7B0055F1D0 /* Model.xcdatamodeld */; };
+		D1577FB020469E1F0055F1D0 /* GaneltAddressFormationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1577FAF20469E1F0055F1D0 /* GaneltAddressFormationModel.m */; };
+		D1577FB420469E770055F1D0 /* GaneltCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1577FB320469E770055F1D0 /* GaneltCoreDataManager.m */; };
+		D1577FB82046A11E0055F1D0 /* GaneltAddressEntityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1577FB72046A11E0055F1D0 /* GaneltAddressEntityManager.m */; };
+		D1577FBA2046ADB20055F1D0 /* allcity.json in Resources */ = {isa = PBXBuildFile; fileRef = D1577FB92046ADB20055F1D0 /* allcity.json */; };
+		D1577FBE2046B03E0055F1D0 /* LYSideslipCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1577FBD2046B03D0055F1D0 /* LYSideslipCell.m */; };
+		D158DFAC204CDFB8002DC139 /* GaneltOrderFormationItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D158DFAB204CDFB8002DC139 /* GaneltOrderFormationItemCell.m */; };
+		D158DFAF204CE22B002DC139 /* GaneltOrderFormationHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D158DFAE204CE22B002DC139 /* GaneltOrderFormationHeaderCell.m */; };
+		D158DFB3204CF341002DC139 /* GaneltMyWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D158DFB2204CF341002DC139 /* GaneltMyWalletViewController.m */; };
+		D158DFB7204CF3D7002DC139 /* GaneltWalletHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D158DFB6204CF3D7002DC139 /* GaneltWalletHeaderCell.m */; };
+		D158DFBA204D279E002DC139 /* GaneltWalletAllPriceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D158DFB9204D279E002DC139 /* GaneltWalletAllPriceCell.m */; };
+		D158DFBD204D2A6B002DC139 /* GaneltWalletItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D158DFBC204D2A6B002DC139 /* GaneltWalletItemCell.m */; };
+		D1A289E32047F022006DB64C /* GaneltPayOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A289E22047F022006DB64C /* GaneltPayOrderViewController.m */; };
+		D1A289E72047F0AD006DB64C /* GaneltPayOrderPayStyleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A289E62047F0AD006DB64C /* GaneltPayOrderPayStyleCell.m */; };
+		D1A289EA2047F34F006DB64C /* GaneltPayOrderFormationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A289E92047F34F006DB64C /* GaneltPayOrderFormationCell.m */; };
+		D1A289F32047F632006DB64C /* LabelFitTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A289ED2047F631006DB64C /* LabelFitTool.m */; };
+		D1A289F42047F632006DB64C /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A289F02047F631006DB64C /* UITableView+SDAutoTableViewCellHeight.m */; };
+		D1A289F52047F632006DB64C /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A289F22047F631006DB64C /* UIView+SDAutoLayout.m */; };
+		D1A289F9204800B4006DB64C /* GaneltPaySuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A289F8204800B4006DB64C /* GaneltPaySuccessViewController.m */; };
+		D1CFF359204A828800B420E4 /* GaneltOrderListItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CFF358204A828800B420E4 /* GaneltOrderListItemViewController.m */; };
+		D1CFF35D204A859C00B420E4 /* GaneltMyOrderListItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CFF35C204A859C00B420E4 /* GaneltMyOrderListItemCell.m */; };
+		D1CFF361204A8C0900B420E4 /* GaneltMyOrderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CFF360204A8C0900B420E4 /* GaneltMyOrderDetailViewController.m */; };
+		D1CFF364204A8C2E00B420E4 /* GaneltOrderProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CFF363204A8C2E00B420E4 /* GaneltOrderProgressViewController.m */; };
+		D1CFF367204A8C3C00B420E4 /* GaneltOrderFormationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CFF366204A8C3C00B420E4 /* GaneltOrderFormationViewController.m */; };
+		D1CFF36B204A929500B420E4 /* GaneltOrderDetailProgressHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CFF36A204A929500B420E4 /* GaneltOrderDetailProgressHeaderCell.m */; };
+		D1CFF36E204A941800B420E4 /* GaneltOrderDetailProgressItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CFF36D204A941800B420E4 /* GaneltOrderDetailProgressItemTableViewCell.m */; };
+		D1FCB0052048FE980079A58D /* GaneltMyOrderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FCB0042048FE980079A58D /* GaneltMyOrderListViewController.m */; };
+		D1FCB00920492FF40079A58D /* GaneltCustomTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FCB00820492FF40079A58D /* GaneltCustomTimeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22CF9B6F201479EB001E1BB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22CF9B4E201479EB001E1BB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22CF9B55201479EB001E1BB2;
+			remoteInfo = Ganelt;
+		};
+		22CF9B7A201479EB001E1BB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22CF9B4E201479EB001E1BB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22CF9B55201479EB001E1BB2;
+			remoteInfo = Ganelt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2207CD6220627F2100CF4E76 /* GaneltMySendFormationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltMySendFormationView.h; sourceTree = "<group>"; };
+		2207CD6320627F2100CF4E76 /* GaneltMySendFormationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltMySendFormationView.m; sourceTree = "<group>"; };
+		22CF9B56201479EB001E1BB2 /* Ganelt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ganelt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22CF9B59201479EB001E1BB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22CF9B5A201479EB001E1BB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22CF9B62201479EB001E1BB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22CF9B65201479EB001E1BB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22CF9B67201479EB001E1BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22CF9B68201479EB001E1BB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22CF9B6E201479EB001E1BB2 /* GaneltTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaneltTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22CF9B72201479EB001E1BB2 /* GaneltTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltTests.m; sourceTree = "<group>"; };
+		22CF9B74201479EB001E1BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22CF9B79201479EB001E1BB2 /* GaneltUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaneltUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22CF9B7D201479EB001E1BB2 /* GaneltUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltUITests.m; sourceTree = "<group>"; };
+		22CF9B7F201479EB001E1BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22CF9BA32014821B001E1BB2 /* GaneltParentsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltParentsViewController.h; sourceTree = "<group>"; };
+		22CF9BA42014821B001E1BB2 /* GaneltParentsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltParentsViewController.m; sourceTree = "<group>"; };
+		22CF9BA62014822E001E1BB2 /* GaneltSendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltSendViewController.h; sourceTree = "<group>"; };
+		22CF9BA72014822E001E1BB2 /* GaneltSendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltSendViewController.m; sourceTree = "<group>"; };
+		22CF9BAC20148253001E1BB2 /* GaneltMyCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltMyCenterViewController.h; sourceTree = "<group>"; };
+		22CF9BAD20148253001E1BB2 /* GaneltMyCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltMyCenterViewController.m; sourceTree = "<group>"; };
+		22CF9BB620148477001E1BB2 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarViewController.m; path = Ganelt/TablebarController/TabBarViewController.m; sourceTree = SOURCE_ROOT; };
+		22CF9BB720148477001E1BB2 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarViewController.h; path = Ganelt/TablebarController/TabBarViewController.h; sourceTree = SOURCE_ROOT; };
+		22CF9BB9201484EC001E1BB2 /* LIstControllerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIstControllerHeader.h; sourceTree = "<group>"; };
+		22CF9BBA201484EC001E1BB2 /* URLHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLHeader.h; sourceTree = "<group>"; };
+		22CF9BBB201484EC001E1BB2 /* DefineHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineHeader.h; sourceTree = "<group>"; };
+		22CF9BBC201484EC001E1BB2 /* GlobaHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobaHeader.h; sourceTree = "<group>"; };
+		22CF9BBD2014858F001E1BB2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		22CF9BBE2014865C001E1BB2 /* TabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarButton.h; sourceTree = "<group>"; };
+		22CF9BBF2014865C001E1BB2 /* TabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarButton.m; sourceTree = "<group>"; };
+		22CF9BC1201486AB001E1BB2 /* BaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
+		22CF9BC2201486AB001E1BB2 /* BaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
+		22CF9BC520148842001E1BB2 /* GaneltMailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltMailViewController.h; sourceTree = "<group>"; };
+		22CF9BC620148842001E1BB2 /* GaneltMailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltMailViewController.m; sourceTree = "<group>"; };
+		22CF9BC820163532001E1BB2 /* UIColor+categary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+categary.m"; sourceTree = "<group>"; };
+		22CF9BC920163532001E1BB2 /* UIColor+categary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+categary.h"; sourceTree = "<group>"; };
+		22CF9BCC20176A48001E1BB2 /* GaneltMailThingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltMailThingCell.h; sourceTree = "<group>"; };
+		22CF9BCD20176A48001E1BB2 /* GaneltMailThingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltMailThingCell.m; sourceTree = "<group>"; };
+		22CF9BCF20176D92001E1BB2 /* GaneltMailAddressCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltMailAddressCell.h; sourceTree = "<group>"; };
+		22CF9BD020176D92001E1BB2 /* GaneltMailAddressCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltMailAddressCell.m; sourceTree = "<group>"; };
+		22CF9BD220176F78001E1BB2 /* GaneltMailChargeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltMailChargeCell.h; sourceTree = "<group>"; };
+		22CF9BD320176F78001E1BB2 /* GaneltMailChargeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltMailChargeCell.m; sourceTree = "<group>"; };
+		22CF9BD520176F87001E1BB2 /* GaneltMailChargeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GaneltMailChargeCell.xib; sourceTree = "<group>"; };
+		22CF9BD82018B2C6001E1BB2 /* GaneltMyCenterHeaderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltMyCenterHeaderCell.h; sourceTree = "<group>"; };
+		22CF9BD92018B2C6001E1BB2 /* GaneltMyCenterHeaderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltMyCenterHeaderCell.m; sourceTree = "<group>"; };
+		22CF9BDB2018B355001E1BB2 /* GaneltMyCenterItemListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltMyCenterItemListCell.h; sourceTree = "<group>"; };
+		22CF9BDC2018B355001E1BB2 /* GaneltMyCenterItemListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltMyCenterItemListCell.m; sourceTree = "<group>"; };
+		22CF9BDE2018B447001E1BB2 /* UIScrollView+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+category.h"; sourceTree = "<group>"; };
+		22CF9BDF2018B447001E1BB2 /* UIScrollView+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+category.m"; sourceTree = "<group>"; };
+		22CF9BE82018B814001E1BB2 /* NSString+Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Path.h"; sourceTree = "<group>"; };
+		22CF9BE92018B814001E1BB2 /* NSString+Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Path.m"; sourceTree = "<group>"; };
+		22CF9BEB2018BA78001E1BB2 /* GaneltUserFormation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaneltUserFormation.h; sourceTree = "<group>"; };
+		22CF9BEE2018BA78001E1BB2 /* GaneltUserFormation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaneltUserFormation.m; sourceTree = "<group>"; };
+		22CF9BF12018BB3A001E1BB2 /* GaneltPersonAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaneltPersonAccount.h; sourceTree = "<group>"; };
+		22CF9BF22018BB3A001E1BB2 /* GaneltPersonAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaneltPersonAccount.m; sourceTree = "<group>"; };
+		22CF9BF42018BBEC001E1BB2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		22CF9BF62018BC12001E1BB2 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		22CF9BF92018BD8E001E1BB2 /* GaneltBasicInformationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltBasicInformationViewController.h; sourceTree = "<group>"; };
+		22CF9BFA2018BD8E001E1BB2 /* GaneltBasicInformationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltBasicInformationViewController.m; sourceTree = "<group>"; };
+		22CF9BFD2018C144001E1BB2 /* GaneltAccountHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltAccountHeaderView.h; sourceTree = "<group>"; };
+		22CF9BFE2018C144001E1BB2 /* GaneltAccountHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltAccountHeaderView.m; sourceTree = "<group>"; };
+		22CF9C012018C2EC001E1BB2 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		22CF9C022018C2EC001E1BB2 /* Base64Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Util.h; sourceTree = "<group>"; };
+		22CF9C032018C2EC001E1BB2 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		22CF9C042018C2EC001E1BB2 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		22CF9C052018C2EC001E1BB2 /* Base64Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Util.m; sourceTree = "<group>"; };
+		22CF9C082018C318001E1BB2 /* MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5.h; sourceTree = "<group>"; };
+		22CF9C092018C319001E1BB2 /* DESTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DESTool.m; sourceTree = "<group>"; };
+		22CF9C0A2018C319001E1BB2 /* DESTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESTool.h; sourceTree = "<group>"; };
+		22CF9C0B2018C319001E1BB2 /* MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5.m; sourceTree = "<group>"; };
+		22CF9C0F201C122F001E1BB2 /* GaneltAFnetWorkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltAFnetWorkManager.h; sourceTree = "<group>"; };
+		22CF9C10201C122F001E1BB2 /* GaneltAFnetWorkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltAFnetWorkManager.m; sourceTree = "<group>"; };
+		22CF9C15201C14EB001E1BB2 /* NSDictionary+GaneltCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GaneltCode.h"; sourceTree = "<group>"; };
+		22CF9C16201C14EB001E1BB2 /* NSDictionary+GaneltCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GaneltCode.m"; sourceTree = "<group>"; };
+		22CF9C18201C166D001E1BB2 /* NSDictionary+extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+extention.m"; sourceTree = "<group>"; };
+		22CF9C19201C166D001E1BB2 /* NSDictionary+extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+extention.h"; sourceTree = "<group>"; };
+		22CF9C1C201C180A001E1BB2 /* MBProgressHUDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUDManager.m; sourceTree = "<group>"; };
+		22CF9C1D201C180A001E1BB2 /* MBProgressHUDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUDManager.h; sourceTree = "<group>"; };
+		22CF9C20201C1900001E1BB2 /* GaneltLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltLoginViewController.h; sourceTree = "<group>"; };
+		22CF9C21201C1901001E1BB2 /* GaneltLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltLoginViewController.m; sourceTree = "<group>"; };
+		22CF9C22201C1901001E1BB2 /* GaneltLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GaneltLoginViewController.xib; sourceTree = "<group>"; };
+		22CF9C26201C1AB2001E1BB2 /* JudgeMobileNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JudgeMobileNumber.m; sourceTree = "<group>"; };
+		22CF9C27201C1AB2001E1BB2 /* JudgeMobileNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JudgeMobileNumber.h; sourceTree = "<group>"; };
+		22CF9C2A201C1EB8001E1BB2 /* GaneltGoodsFormViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltGoodsFormViewController.h; sourceTree = "<group>"; };
+		22CF9C2B201C1EB8001E1BB2 /* GaneltGoodsFormViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltGoodsFormViewController.m; sourceTree = "<group>"; };
+		22CF9C2E201C1F14001E1BB2 /* GaneltGoodsFormHeadCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltGoodsFormHeadCell.h; sourceTree = "<group>"; };
+		22CF9C2F201C1F14001E1BB2 /* GaneltGoodsFormHeadCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltGoodsFormHeadCell.m; sourceTree = "<group>"; };
+		22CF9C31201C1FED001E1BB2 /* GaneltGoodsFormItemCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltGoodsFormItemCollectionViewCell.h; sourceTree = "<group>"; };
+		22CF9C32201C1FED001E1BB2 /* GaneltGoodsFormItemCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltGoodsFormItemCollectionViewCell.m; sourceTree = "<group>"; };
+		22CF9C352026E3D3001E1BB2 /* GaneltCoreLocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltCoreLocationManager.h; sourceTree = "<group>"; };
+		22CF9C362026E3D3001E1BB2 /* GaneltCoreLocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltCoreLocationManager.m; sourceTree = "<group>"; };
+		22CF9C382026E7BD001E1BB2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		22CF9C3F2026F3FD001E1BB2 /* GaneltMKAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltMKAnnotation.h; sourceTree = "<group>"; };
+		22CF9C402026F3FD001E1BB2 /* GaneltMKAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltMKAnnotation.m; sourceTree = "<group>"; };
+		22CF9C422026F944001E1BB2 /* GaneltCustomMKAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaneltCustomMKAnnotationView.m; sourceTree = "<group>"; };
+		22CF9C432026F944001E1BB2 /* GaneltCustomMKAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaneltCustomMKAnnotationView.h; sourceTree = "<group>"; };
+		22CFA228205BF566001E1BB2 /* ganeltBanner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ganeltBanner.jpg; sourceTree = "<group>"; };
+		22CFA22B205CE822001E1BB2 /* GaneltSetingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltSetingViewController.h; sourceTree = "<group>"; };
+		22CFA22C205CE822001E1BB2 /* GaneltSetingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltSetingViewController.m; sourceTree = "<group>"; };
+		22CFA22F205CE941001E1BB2 /* GaneltSetItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltSetItemCell.h; sourceTree = "<group>"; };
+		22CFA230205CE941001E1BB2 /* GaneltSetItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltSetItemCell.m; sourceTree = "<group>"; };
+		962855F9E7FE4B388B438801 /* libPods-Ganelt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ganelt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE5EB68E8189EE2AB3FFED9 /* Pods-Ganelt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ganelt.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ganelt/Pods-Ganelt.release.xcconfig"; sourceTree = "<group>"; };
+		D13343C82047E6890043D35E /* GaneltGoodsOtherFormationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltGoodsOtherFormationCell.h; sourceTree = "<group>"; };
+		D13343C92047E6890043D35E /* GaneltGoodsOtherFormationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltGoodsOtherFormationCell.m; sourceTree = "<group>"; };
+		D1577F5B204680330055F1D0 /* GaneltAddressListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltAddressListViewController.h; sourceTree = "<group>"; };
+		D1577F5C204680330055F1D0 /* GaneltAddressListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltAddressListViewController.m; sourceTree = "<group>"; };
+		D1577F5F2046816F0055F1D0 /* GaneltMailAddressListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltMailAddressListCell.h; sourceTree = "<group>"; };
+		D1577F602046816F0055F1D0 /* GaneltMailAddressListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltMailAddressListCell.m; sourceTree = "<group>"; };
+		D1577F62204683B60055F1D0 /* GaneltAddNewAddressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltAddNewAddressViewController.h; sourceTree = "<group>"; };
+		D1577F63204683B60055F1D0 /* GaneltAddNewAddressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltAddNewAddressViewController.m; sourceTree = "<group>"; };
+		D1577F65204684020055F1D0 /* GaneltMailAddNewAddressCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltMailAddNewAddressCell.h; sourceTree = "<group>"; };
+		D1577F66204684020055F1D0 /* GaneltMailAddNewAddressCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltMailAddNewAddressCell.m; sourceTree = "<group>"; };
+		D1577F692046866C0055F1D0 /* PickSelectview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickSelectview.h; sourceTree = "<group>"; };
+		D1577F6A2046866C0055F1D0 /* PickSelectview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickSelectview.m; sourceTree = "<group>"; };
+		D1577F6D204686960055F1D0 /* CitySelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitySelectView.h; sourceTree = "<group>"; };
+		D1577F6E204686960055F1D0 /* CitySelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitySelectView.m; sourceTree = "<group>"; };
+		D1577F71204686C00055F1D0 /* DatePickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickView.h; sourceTree = "<group>"; };
+		D1577F72204686C00055F1D0 /* DatePickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickView.m; sourceTree = "<group>"; };
+		D1577F76204688CD0055F1D0 /* Province.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Province.m; sourceTree = "<group>"; };
+		D1577F77204688CD0055F1D0 /* Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Address.h; sourceTree = "<group>"; };
+		D1577F78204688CD0055F1D0 /* Province.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Province.h; sourceTree = "<group>"; };
+		D1577F79204688CD0055F1D0 /* Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Address.m; sourceTree = "<group>"; };
+		D1577F7A204688CD0055F1D0 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		D1577F7B204688CD0055F1D0 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		D1577F7C204688CD0055F1D0 /* Area.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Area.h; sourceTree = "<group>"; };
+		D1577F7D204688CD0055F1D0 /* Area.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Area.m; sourceTree = "<group>"; };
+		D1577F8220468A110055F1D0 /* GaneltDetailAddressCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltDetailAddressCell.h; sourceTree = "<group>"; };
+		D1577F8320468A110055F1D0 /* GaneltDetailAddressCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltDetailAddressCell.m; sourceTree = "<group>"; };
+		D1577FAC20469D7B0055F1D0 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		D1577FAE20469E1F0055F1D0 /* GaneltAddressFormationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltAddressFormationModel.h; sourceTree = "<group>"; };
+		D1577FAF20469E1F0055F1D0 /* GaneltAddressFormationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltAddressFormationModel.m; sourceTree = "<group>"; };
+		D1577FB220469E770055F1D0 /* GaneltCoreDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltCoreDataManager.h; sourceTree = "<group>"; };
+		D1577FB320469E770055F1D0 /* GaneltCoreDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltCoreDataManager.m; sourceTree = "<group>"; };
+		D1577FB62046A11E0055F1D0 /* GaneltAddressEntityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltAddressEntityManager.h; sourceTree = "<group>"; };
+		D1577FB72046A11E0055F1D0 /* GaneltAddressEntityManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltAddressEntityManager.m; sourceTree = "<group>"; };
+		D1577FB92046ADB20055F1D0 /* allcity.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = allcity.json; sourceTree = "<group>"; };
+		D1577FBC2046B03D0055F1D0 /* LYSideslipCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSideslipCell.h; sourceTree = "<group>"; };
+		D1577FBD2046B03D0055F1D0 /* LYSideslipCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSideslipCell.m; sourceTree = "<group>"; };
+		D158DFAA204CDFB8002DC139 /* GaneltOrderFormationItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltOrderFormationItemCell.h; sourceTree = "<group>"; };
+		D158DFAB204CDFB8002DC139 /* GaneltOrderFormationItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltOrderFormationItemCell.m; sourceTree = "<group>"; };
+		D158DFAD204CE22B002DC139 /* GaneltOrderFormationHeaderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltOrderFormationHeaderCell.h; sourceTree = "<group>"; };
+		D158DFAE204CE22B002DC139 /* GaneltOrderFormationHeaderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltOrderFormationHeaderCell.m; sourceTree = "<group>"; };
+		D158DFB1204CF341002DC139 /* GaneltMyWalletViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltMyWalletViewController.h; sourceTree = "<group>"; };
+		D158DFB2204CF341002DC139 /* GaneltMyWalletViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltMyWalletViewController.m; sourceTree = "<group>"; };
+		D158DFB5204CF3D7002DC139 /* GaneltWalletHeaderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltWalletHeaderCell.h; sourceTree = "<group>"; };
+		D158DFB6204CF3D7002DC139 /* GaneltWalletHeaderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltWalletHeaderCell.m; sourceTree = "<group>"; };
+		D158DFB8204D279E002DC139 /* GaneltWalletAllPriceCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltWalletAllPriceCell.h; sourceTree = "<group>"; };
+		D158DFB9204D279E002DC139 /* GaneltWalletAllPriceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltWalletAllPriceCell.m; sourceTree = "<group>"; };
+		D158DFBB204D2A6B002DC139 /* GaneltWalletItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltWalletItemCell.h; sourceTree = "<group>"; };
+		D158DFBC204D2A6B002DC139 /* GaneltWalletItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltWalletItemCell.m; sourceTree = "<group>"; };
+		D1A289E12047F022006DB64C /* GaneltPayOrderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltPayOrderViewController.h; sourceTree = "<group>"; };
+		D1A289E22047F022006DB64C /* GaneltPayOrderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltPayOrderViewController.m; sourceTree = "<group>"; };
+		D1A289E52047F0AD006DB64C /* GaneltPayOrderPayStyleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltPayOrderPayStyleCell.h; sourceTree = "<group>"; };
+		D1A289E62047F0AD006DB64C /* GaneltPayOrderPayStyleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltPayOrderPayStyleCell.m; sourceTree = "<group>"; };
+		D1A289E82047F34F006DB64C /* GaneltPayOrderFormationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltPayOrderFormationCell.h; sourceTree = "<group>"; };
+		D1A289E92047F34F006DB64C /* GaneltPayOrderFormationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltPayOrderFormationCell.m; sourceTree = "<group>"; };
+		D1A289EC2047F631006DB64C /* LabelFitTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelFitTool.h; sourceTree = "<group>"; };
+		D1A289ED2047F631006DB64C /* LabelFitTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelFitTool.m; sourceTree = "<group>"; };
+		D1A289EF2047F631006DB64C /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		D1A289F02047F631006DB64C /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		D1A289F12047F631006DB64C /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		D1A289F22047F631006DB64C /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		D1A289F7204800B4006DB64C /* GaneltPaySuccessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltPaySuccessViewController.h; sourceTree = "<group>"; };
+		D1A289F8204800B4006DB64C /* GaneltPaySuccessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltPaySuccessViewController.m; sourceTree = "<group>"; };
+		D1CFF357204A828800B420E4 /* GaneltOrderListItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltOrderListItemViewController.h; sourceTree = "<group>"; };
+		D1CFF358204A828800B420E4 /* GaneltOrderListItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltOrderListItemViewController.m; sourceTree = "<group>"; };
+		D1CFF35B204A859C00B420E4 /* GaneltMyOrderListItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltMyOrderListItemCell.h; sourceTree = "<group>"; };
+		D1CFF35C204A859C00B420E4 /* GaneltMyOrderListItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltMyOrderListItemCell.m; sourceTree = "<group>"; };
+		D1CFF35F204A8C0900B420E4 /* GaneltMyOrderDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltMyOrderDetailViewController.h; sourceTree = "<group>"; };
+		D1CFF360204A8C0900B420E4 /* GaneltMyOrderDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltMyOrderDetailViewController.m; sourceTree = "<group>"; };
+		D1CFF362204A8C2E00B420E4 /* GaneltOrderProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltOrderProgressViewController.h; sourceTree = "<group>"; };
+		D1CFF363204A8C2E00B420E4 /* GaneltOrderProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltOrderProgressViewController.m; sourceTree = "<group>"; };
+		D1CFF365204A8C3C00B420E4 /* GaneltOrderFormationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltOrderFormationViewController.h; sourceTree = "<group>"; };
+		D1CFF366204A8C3C00B420E4 /* GaneltOrderFormationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltOrderFormationViewController.m; sourceTree = "<group>"; };
+		D1CFF369204A929500B420E4 /* GaneltOrderDetailProgressHeaderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltOrderDetailProgressHeaderCell.h; sourceTree = "<group>"; };
+		D1CFF36A204A929500B420E4 /* GaneltOrderDetailProgressHeaderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltOrderDetailProgressHeaderCell.m; sourceTree = "<group>"; };
+		D1CFF36C204A941800B420E4 /* GaneltOrderDetailProgressItemTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltOrderDetailProgressItemTableViewCell.h; sourceTree = "<group>"; };
+		D1CFF36D204A941800B420E4 /* GaneltOrderDetailProgressItemTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltOrderDetailProgressItemTableViewCell.m; sourceTree = "<group>"; };
+		D1FCB0032048FE980079A58D /* GaneltMyOrderListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltMyOrderListViewController.h; sourceTree = "<group>"; };
+		D1FCB0042048FE980079A58D /* GaneltMyOrderListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltMyOrderListViewController.m; sourceTree = "<group>"; };
+		D1FCB00720492FF40079A58D /* GaneltCustomTimeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaneltCustomTimeView.h; sourceTree = "<group>"; };
+		D1FCB00820492FF40079A58D /* GaneltCustomTimeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaneltCustomTimeView.m; sourceTree = "<group>"; };
+		D859229E1E6DF6BEBE700E48 /* Pods-Ganelt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ganelt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ganelt/Pods-Ganelt.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22CF9B53201479EB001E1BB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CF9C392026E7BD001E1BB2 /* MapKit.framework in Frameworks */,
+				22CF9BF72018BC13001E1BB2 /* libstdc++.tbd in Frameworks */,
+				22CF9BF52018BBEC001E1BB2 /* libz.tbd in Frameworks */,
+				14503A504B533AEE65B234C3 /* libPods-Ganelt.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22CF9B6B201479EB001E1BB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22CF9B76201479EB001E1BB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00DA5DEDDE7F55830EE5D051 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D859229E1E6DF6BEBE700E48 /* Pods-Ganelt.debug.xcconfig */,
+				CAE5EB68E8189EE2AB3FFED9 /* Pods-Ganelt.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2207CD6120627EFD00CF4E76 /* mySendFormationView */ = {
+			isa = PBXGroup;
+			children = (
+				2207CD6220627F2100CF4E76 /* GaneltMySendFormationView.h */,
+				2207CD6320627F2100CF4E76 /* GaneltMySendFormationView.m */,
+			);
+			path = mySendFormationView;
+			sourceTree = "<group>";
+		};
+		22CF9B4D201479EB001E1BB2 = {
+			isa = PBXGroup;
+			children = (
+				22CF9B58201479EB001E1BB2 /* Ganelt */,
+				22CFA227205BF53B001E1BB2 /* customImg */,
+				22CF9B71201479EB001E1BB2 /* GaneltTests */,
+				22CF9B7C201479EB001E1BB2 /* GaneltUITests */,
+				22CF9B57201479EB001E1BB2 /* Products */,
+				00DA5DEDDE7F55830EE5D051 /* Pods */,
+				7F205413BF6129E22909858C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22CF9B57201479EB001E1BB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9B56201479EB001E1BB2 /* Ganelt.app */,
+				22CF9B6E201479EB001E1BB2 /* GaneltTests.xctest */,
+				22CF9B79201479EB001E1BB2 /* GaneltUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22CF9B58201479EB001E1BB2 /* Ganelt */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9B9020147B51001E1BB2 /* Head_filed */,
+				22CF9B9220147B51001E1BB2 /* Tool */,
+				22CF9B8C20147B50001E1BB2 /* Categary */,
+				22CF9B8E20147B51001E1BB2 /* ThirdClass */,
+				22CF9B8F20147B51001E1BB2 /* Appdelegate */,
+				22CF9B8D20147B51001E1BB2 /* NavigationController */,
+				22CF9B9120147B51001E1BB2 /* TablebarController */,
+				22CF9B9320147C3A001E1BB2 /* GaneltUI */,
+				22CF9B62201479EB001E1BB2 /* Assets.xcassets */,
+				D1577FAB20469D7B0055F1D0 /* Model.xcdatamodeld */,
+				22CF9B64201479EB001E1BB2 /* LaunchScreen.storyboard */,
+				D1577FB92046ADB20055F1D0 /* allcity.json */,
+				22CF9B67201479EB001E1BB2 /* Info.plist */,
+				22CF9B68201479EB001E1BB2 /* main.m */,
+				22CF9BBD2014858F001E1BB2 /* PrefixHeader.pch */,
+			);
+			path = Ganelt;
+			sourceTree = "<group>";
+		};
+		22CF9B71201479EB001E1BB2 /* GaneltTests */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9B72201479EB001E1BB2 /* GaneltTests.m */,
+				22CF9B74201479EB001E1BB2 /* Info.plist */,
+			);
+			path = GaneltTests;
+			sourceTree = "<group>";
+		};
+		22CF9B7C201479EB001E1BB2 /* GaneltUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9B7D201479EB001E1BB2 /* GaneltUITests.m */,
+				22CF9B7F201479EB001E1BB2 /* Info.plist */,
+			);
+			path = GaneltUITests;
+			sourceTree = "<group>";
+		};
+		22CF9B8C20147B50001E1BB2 /* Categary */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9C19201C166D001E1BB2 /* NSDictionary+extention.h */,
+				22CF9C18201C166D001E1BB2 /* NSDictionary+extention.m */,
+				22CF9BE82018B814001E1BB2 /* NSString+Path.h */,
+				22CF9BE92018B814001E1BB2 /* NSString+Path.m */,
+				22CF9BDE2018B447001E1BB2 /* UIScrollView+category.h */,
+				22CF9BDF2018B447001E1BB2 /* UIScrollView+category.m */,
+				22CF9BC920163532001E1BB2 /* UIColor+categary.h */,
+				22CF9BC820163532001E1BB2 /* UIColor+categary.m */,
+				22CF9C15201C14EB001E1BB2 /* NSDictionary+GaneltCode.h */,
+				22CF9C16201C14EB001E1BB2 /* NSDictionary+GaneltCode.m */,
+			);
+			path = Categary;
+			sourceTree = "<group>";
+		};
+		22CF9B8D20147B51001E1BB2 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9BC2201486AB001E1BB2 /* BaseNavigationViewController.h */,
+				22CF9BC1201486AB001E1BB2 /* BaseNavigationViewController.m */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		22CF9B8E20147B51001E1BB2 /* ThirdClass */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9C1B201C17F1001E1BB2 /* MBProgressHUDManager */,
+			);
+			path = ThirdClass;
+			sourceTree = "<group>";
+		};
+		22CF9B8F20147B51001E1BB2 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9B59201479EB001E1BB2 /* AppDelegate.h */,
+				22CF9B5A201479EB001E1BB2 /* AppDelegate.m */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		22CF9B9020147B51001E1BB2 /* Head_filed */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9BBB201484EC001E1BB2 /* DefineHeader.h */,
+				22CF9BBC201484EC001E1BB2 /* GlobaHeader.h */,
+				22CF9BB9201484EC001E1BB2 /* LIstControllerHeader.h */,
+				22CF9BBA201484EC001E1BB2 /* URLHeader.h */,
+			);
+			path = Head_filed;
+			sourceTree = "<group>";
+		};
+		22CF9B9120147B51001E1BB2 /* TablebarController */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9BB720148477001E1BB2 /* TabBarViewController.h */,
+				22CF9BB620148477001E1BB2 /* TabBarViewController.m */,
+			);
+			path = TablebarController;
+			sourceTree = "<group>";
+		};
+		22CF9B9220147B51001E1BB2 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				D1A289EB2047F631006DB64C /* 根据字符串长度获取尺寸 */,
+				D1577FB52046A04F0055F1D0 /* AddressEntityManger */,
+				D1577FB120469E5C0055F1D0 /* coreData */,
+				22CF9C342026E3B8001E1BB2 /* coreLocation */,
+				22CF9C25201C1AA4001E1BB2 /* 正则表达式 */,
+				22CF9C0E201C1209001E1BB2 /* AfnetWorkManager */,
+				22CF9C002018C2EC001E1BB2 /* DESTool */,
+				22CF9BE12018B513001E1BB2 /* userInformation */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		22CF9B9320147C3A001E1BB2 /* GaneltUI */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9B9A20148100001E1BB2 /* Parents */,
+				22CF9B99201480F5001E1BB2 /* Home */,
+			);
+			name = GaneltUI;
+			path = Ganelt/GaneltUI;
+			sourceTree = SOURCE_ROOT;
+		};
+		22CF9B9420148082001E1BB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D1577F74204688A20055F1D0 /* myMail我要寄 */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22CF9B9520148088001E1BB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9C3A2026E965001E1BB2 /* customView */,
+				22CF9BCB20176A0F001E1BB2 /* myMail我要寄 */,
+				22CF9BD72018B2A7001E1BB2 /* myCenter */,
+				22CF9BFC2018C129001E1BB2 /* basicInformationHeaderView */,
+				22CF9BAF201482DF001E1BB2 /* TabBarButton */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		22CF9B962014808E001E1BB2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9BC4201487FF001E1BB2 /* myMail我要寄 */,
+				22CF9B9D20148178001E1BB2 /* mySend我要送 */,
+				22CF9B9B20148178001E1BB2 /* myCenter */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		22CF9B99201480F5001E1BB2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9B962014808E001E1BB2 /* ViewController */,
+				22CF9B9520148088001E1BB2 /* View */,
+				22CF9B9420148082001E1BB2 /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		22CF9B9A20148100001E1BB2 /* Parents */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9BA32014821B001E1BB2 /* GaneltParentsViewController.h */,
+				22CF9BA42014821B001E1BB2 /* GaneltParentsViewController.m */,
+			);
+			path = Parents;
+			sourceTree = "<group>";
+		};
+		22CF9B9B20148178001E1BB2 /* myCenter */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9BAC20148253001E1BB2 /* GaneltMyCenterViewController.h */,
+				22CF9BAD20148253001E1BB2 /* GaneltMyCenterViewController.m */,
+				22CFA22A205CE807001E1BB2 /* set */,
+				D158DFB0204CF316002DC139 /* myWallet */,
+				D1FCB0022048FE7F0079A58D /* orderList */,
+				22CF9BF82018BD6F001E1BB2 /* basicInformation */,
+				22CF9C1F201C18A4001E1BB2 /* login登录 */,
+			);
+			path = myCenter;
+			sourceTree = "<group>";
+		};
+		22CF9B9D20148178001E1BB2 /* mySend我要送 */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9BA62014822E001E1BB2 /* GaneltSendViewController.h */,
+				22CF9BA72014822E001E1BB2 /* GaneltSendViewController.m */,
+			);
+			path = "mySend我要送";
+			sourceTree = "<group>";
+		};
+		22CF9BAF201482DF001E1BB2 /* TabBarButton */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9BBE2014865C001E1BB2 /* TabBarButton.h */,
+				22CF9BBF2014865C001E1BB2 /* TabBarButton.m */,
+			);
+			path = TabBarButton;
+			sourceTree = "<group>";
+		};
+		22CF9BC4201487FF001E1BB2 /* myMail我要寄 */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9BC520148842001E1BB2 /* GaneltMailViewController.h */,
+				22CF9BC620148842001E1BB2 /* GaneltMailViewController.m */,
+				D1A289F62048009F006DB64C /* paySuccess */,
+				D1A289E02047F008006DB64C /* payOrder */,
+				D1577F5A20467FD90055F1D0 /* address */,
+				22CF9C29201C1EA2001E1BB2 /* GoodsForm */,
+			);
+			path = "myMail我要寄";
+			sourceTree = "<group>";
+		};
+		22CF9BCB20176A0F001E1BB2 /* myMail我要寄 */ = {
+			isa = PBXGroup;
+			children = (
+				D1A289E42047F088006DB64C /* payOrder */,
+				D1577F5E2046814B0055F1D0 /* address */,
+				22CF9C2D201C1EE7001E1BB2 /* GoodsForm */,
+				22CF9BCC20176A48001E1BB2 /* GaneltMailThingCell.h */,
+				22CF9BCD20176A48001E1BB2 /* GaneltMailThingCell.m */,
+				22CF9BCF20176D92001E1BB2 /* GaneltMailAddressCell.h */,
+				22CF9BD020176D92001E1BB2 /* GaneltMailAddressCell.m */,
+				22CF9BD220176F78001E1BB2 /* GaneltMailChargeCell.h */,
+				22CF9BD320176F78001E1BB2 /* GaneltMailChargeCell.m */,
+				22CF9BD520176F87001E1BB2 /* GaneltMailChargeCell.xib */,
+			);
+			path = "myMail我要寄";
+			sourceTree = "<group>";
+		};
+		22CF9BD72018B2A7001E1BB2 /* myCenter */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9BD82018B2C6001E1BB2 /* GaneltMyCenterHeaderCell.h */,
+				22CF9BD92018B2C6001E1BB2 /* GaneltMyCenterHeaderCell.m */,
+				22CF9BDB2018B355001E1BB2 /* GaneltMyCenterItemListCell.h */,
+				22CF9BDC2018B355001E1BB2 /* GaneltMyCenterItemListCell.m */,
+				22CFA22E205CE924001E1BB2 /* set */,
+				D158DFB4204CF3AF002DC139 /* myWallet */,
+				D1CFF35A204A857600B420E4 /* orderlist */,
+			);
+			path = myCenter;
+			sourceTree = "<group>";
+		};
+		22CF9BE12018B513001E1BB2 /* userInformation */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9BF12018BB3A001E1BB2 /* GaneltPersonAccount.h */,
+				22CF9BF22018BB3A001E1BB2 /* GaneltPersonAccount.m */,
+				22CF9BEB2018BA78001E1BB2 /* GaneltUserFormation.h */,
+				22CF9BEE2018BA78001E1BB2 /* GaneltUserFormation.m */,
+			);
+			path = userInformation;
+			sourceTree = "<group>";
+		};
+		22CF9BF82018BD6F001E1BB2 /* basicInformation */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9BF92018BD8E001E1BB2 /* GaneltBasicInformationViewController.h */,
+				22CF9BFA2018BD8E001E1BB2 /* GaneltBasicInformationViewController.m */,
+			);
+			path = basicInformation;
+			sourceTree = "<group>";
+		};
+		22CF9BFC2018C129001E1BB2 /* basicInformationHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9BFD2018C144001E1BB2 /* GaneltAccountHeaderView.h */,
+				22CF9BFE2018C144001E1BB2 /* GaneltAccountHeaderView.m */,
+			);
+			path = basicInformationHeaderView;
+			sourceTree = "<group>";
+		};
+		22CF9C002018C2EC001E1BB2 /* DESTool */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9C0A2018C319001E1BB2 /* DESTool.h */,
+				22CF9C092018C319001E1BB2 /* DESTool.m */,
+				22CF9C082018C318001E1BB2 /* MD5.h */,
+				22CF9C0B2018C319001E1BB2 /* MD5.m */,
+				22CF9C012018C2EC001E1BB2 /* GTMBase64.h */,
+				22CF9C022018C2EC001E1BB2 /* Base64Util.h */,
+				22CF9C032018C2EC001E1BB2 /* GTMDefines.h */,
+				22CF9C042018C2EC001E1BB2 /* GTMBase64.m */,
+				22CF9C052018C2EC001E1BB2 /* Base64Util.m */,
+			);
+			path = DESTool;
+			sourceTree = "<group>";
+		};
+		22CF9C0E201C1209001E1BB2 /* AfnetWorkManager */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9C0F201C122F001E1BB2 /* GaneltAFnetWorkManager.h */,
+				22CF9C10201C122F001E1BB2 /* GaneltAFnetWorkManager.m */,
+			);
+			path = AfnetWorkManager;
+			sourceTree = "<group>";
+		};
+		22CF9C1B201C17F1001E1BB2 /* MBProgressHUDManager */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9C1D201C180A001E1BB2 /* MBProgressHUDManager.h */,
+				22CF9C1C201C180A001E1BB2 /* MBProgressHUDManager.m */,
+			);
+			path = MBProgressHUDManager;
+			sourceTree = "<group>";
+		};
+		22CF9C1F201C18A4001E1BB2 /* login登录 */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9C20201C1900001E1BB2 /* GaneltLoginViewController.h */,
+				22CF9C21201C1901001E1BB2 /* GaneltLoginViewController.m */,
+				22CF9C22201C1901001E1BB2 /* GaneltLoginViewController.xib */,
+			);
+			path = "login登录";
+			sourceTree = "<group>";
+		};
+		22CF9C25201C1AA4001E1BB2 /* 正则表达式 */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9C27201C1AB2001E1BB2 /* JudgeMobileNumber.h */,
+				22CF9C26201C1AB2001E1BB2 /* JudgeMobileNumber.m */,
+			);
+			path = "正则表达式";
+			sourceTree = "<group>";
+		};
+		22CF9C29201C1EA2001E1BB2 /* GoodsForm */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9C2A201C1EB8001E1BB2 /* GaneltGoodsFormViewController.h */,
+				22CF9C2B201C1EB8001E1BB2 /* GaneltGoodsFormViewController.m */,
+			);
+			path = GoodsForm;
+			sourceTree = "<group>";
+		};
+		22CF9C2D201C1EE7001E1BB2 /* GoodsForm */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9C2E201C1F14001E1BB2 /* GaneltGoodsFormHeadCell.h */,
+				22CF9C2F201C1F14001E1BB2 /* GaneltGoodsFormHeadCell.m */,
+				22CF9C31201C1FED001E1BB2 /* GaneltGoodsFormItemCollectionViewCell.h */,
+				22CF9C32201C1FED001E1BB2 /* GaneltGoodsFormItemCollectionViewCell.m */,
+				D13343C82047E6890043D35E /* GaneltGoodsOtherFormationCell.h */,
+				D13343C92047E6890043D35E /* GaneltGoodsOtherFormationCell.m */,
+			);
+			path = GoodsForm;
+			sourceTree = "<group>";
+		};
+		22CF9C342026E3B8001E1BB2 /* coreLocation */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9C352026E3D3001E1BB2 /* GaneltCoreLocationManager.h */,
+				22CF9C362026E3D3001E1BB2 /* GaneltCoreLocationManager.m */,
+			);
+			path = coreLocation;
+			sourceTree = "<group>";
+		};
+		22CF9C3A2026E965001E1BB2 /* customView */ = {
+			isa = PBXGroup;
+			children = (
+				2207CD6120627EFD00CF4E76 /* mySendFormationView */,
+				D1FCB00620492F540079A58D /* customTime */,
+				D1577FBB2046B03D0055F1D0 /* LysideslipCell */,
+				D1577F70204686C00055F1D0 /* DatePickView */,
+				D1577F6C204686800055F1D0 /* CitySelect */,
+				D1577F68204686580055F1D0 /* CustomPickView */,
+				22CF9C3B2026E980001E1BB2 /* KCAnnotationView */,
+			);
+			path = customView;
+			sourceTree = "<group>";
+		};
+		22CF9C3B2026E980001E1BB2 /* KCAnnotationView */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9C432026F944001E1BB2 /* GaneltCustomMKAnnotationView.h */,
+				22CF9C422026F944001E1BB2 /* GaneltCustomMKAnnotationView.m */,
+				22CF9C3F2026F3FD001E1BB2 /* GaneltMKAnnotation.h */,
+				22CF9C402026F3FD001E1BB2 /* GaneltMKAnnotation.m */,
+			);
+			path = KCAnnotationView;
+			sourceTree = "<group>";
+		};
+		22CFA227205BF53B001E1BB2 /* customImg */ = {
+			isa = PBXGroup;
+			children = (
+				22CFA228205BF566001E1BB2 /* ganeltBanner.jpg */,
+			);
+			path = customImg;
+			sourceTree = "<group>";
+		};
+		22CFA22A205CE807001E1BB2 /* set */ = {
+			isa = PBXGroup;
+			children = (
+				22CFA22B205CE822001E1BB2 /* GaneltSetingViewController.h */,
+				22CFA22C205CE822001E1BB2 /* GaneltSetingViewController.m */,
+			);
+			path = set;
+			sourceTree = "<group>";
+		};
+		22CFA22E205CE924001E1BB2 /* set */ = {
+			isa = PBXGroup;
+			children = (
+				22CFA22F205CE941001E1BB2 /* GaneltSetItemCell.h */,
+				22CFA230205CE941001E1BB2 /* GaneltSetItemCell.m */,
+			);
+			path = set;
+			sourceTree = "<group>";
+		};
+		7F205413BF6129E22909858C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22CF9C382026E7BD001E1BB2 /* MapKit.framework */,
+				22CF9BF62018BC12001E1BB2 /* libstdc++.tbd */,
+				22CF9BF42018BBEC001E1BB2 /* libz.tbd */,
+				962855F9E7FE4B388B438801 /* libPods-Ganelt.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1577F5A20467FD90055F1D0 /* address */ = {
+			isa = PBXGroup;
+			children = (
+				D1577F5B204680330055F1D0 /* GaneltAddressListViewController.h */,
+				D1577F5C204680330055F1D0 /* GaneltAddressListViewController.m */,
+				D1577F62204683B60055F1D0 /* GaneltAddNewAddressViewController.h */,
+				D1577F63204683B60055F1D0 /* GaneltAddNewAddressViewController.m */,
+			);
+			path = address;
+			sourceTree = "<group>";
+		};
+		D1577F5E2046814B0055F1D0 /* address */ = {
+			isa = PBXGroup;
+			children = (
+				D1577F5F2046816F0055F1D0 /* GaneltMailAddressListCell.h */,
+				D1577F602046816F0055F1D0 /* GaneltMailAddressListCell.m */,
+				D1577F65204684020055F1D0 /* GaneltMailAddNewAddressCell.h */,
+				D1577F66204684020055F1D0 /* GaneltMailAddNewAddressCell.m */,
+				D1577F8220468A110055F1D0 /* GaneltDetailAddressCell.h */,
+				D1577F8320468A110055F1D0 /* GaneltDetailAddressCell.m */,
+			);
+			path = address;
+			sourceTree = "<group>";
+		};
+		D1577F68204686580055F1D0 /* CustomPickView */ = {
+			isa = PBXGroup;
+			children = (
+				D1577F692046866C0055F1D0 /* PickSelectview.h */,
+				D1577F6A2046866C0055F1D0 /* PickSelectview.m */,
+			);
+			path = CustomPickView;
+			sourceTree = "<group>";
+		};
+		D1577F6C204686800055F1D0 /* CitySelect */ = {
+			isa = PBXGroup;
+			children = (
+				D1577F6D204686960055F1D0 /* CitySelectView.h */,
+				D1577F6E204686960055F1D0 /* CitySelectView.m */,
+			);
+			path = CitySelect;
+			sourceTree = "<group>";
+		};
+		D1577F70204686C00055F1D0 /* DatePickView */ = {
+			isa = PBXGroup;
+			children = (
+				D1577F71204686C00055F1D0 /* DatePickView.h */,
+				D1577F72204686C00055F1D0 /* DatePickView.m */,
+			);
+			path = DatePickView;
+			sourceTree = "<group>";
+		};
+		D1577F74204688A20055F1D0 /* myMail我要寄 */ = {
+			isa = PBXGroup;
+			children = (
+				D1577F75204688B60055F1D0 /* address */,
+			);
+			path = "myMail我要寄";
+			sourceTree = "<group>";
+		};
+		D1577F75204688B60055F1D0 /* address */ = {
+			isa = PBXGroup;
+			children = (
+				D1577F77204688CD0055F1D0 /* Address.h */,
+				D1577F79204688CD0055F1D0 /* Address.m */,
+				D1577F7C204688CD0055F1D0 /* Area.h */,
+				D1577F7D204688CD0055F1D0 /* Area.m */,
+				D1577F7A204688CD0055F1D0 /* City.h */,
+				D1577F7B204688CD0055F1D0 /* City.m */,
+				D1577F78204688CD0055F1D0 /* Province.h */,
+				D1577F76204688CD0055F1D0 /* Province.m */,
+				D1577FAE20469E1F0055F1D0 /* GaneltAddressFormationModel.h */,
+				D1577FAF20469E1F0055F1D0 /* GaneltAddressFormationModel.m */,
+			);
+			path = address;
+			sourceTree = "<group>";
+		};
+		D1577FB120469E5C0055F1D0 /* coreData */ = {
+			isa = PBXGroup;
+			children = (
+				D1577FB220469E770055F1D0 /* GaneltCoreDataManager.h */,
+				D1577FB320469E770055F1D0 /* GaneltCoreDataManager.m */,
+			);
+			path = coreData;
+			sourceTree = "<group>";
+		};
+		D1577FB52046A04F0055F1D0 /* AddressEntityManger */ = {
+			isa = PBXGroup;
+			children = (
+				D1577FB62046A11E0055F1D0 /* GaneltAddressEntityManager.h */,
+				D1577FB72046A11E0055F1D0 /* GaneltAddressEntityManager.m */,
+			);
+			path = AddressEntityManger;
+			sourceTree = "<group>";
+		};
+		D1577FBB2046B03D0055F1D0 /* LysideslipCell */ = {
+			isa = PBXGroup;
+			children = (
+				D1577FBC2046B03D0055F1D0 /* LYSideslipCell.h */,
+				D1577FBD2046B03D0055F1D0 /* LYSideslipCell.m */,
+			);
+			path = LysideslipCell;
+			sourceTree = "<group>";
+		};
+		D158DFB0204CF316002DC139 /* myWallet */ = {
+			isa = PBXGroup;
+			children = (
+				D158DFB1204CF341002DC139 /* GaneltMyWalletViewController.h */,
+				D158DFB2204CF341002DC139 /* GaneltMyWalletViewController.m */,
+			);
+			path = myWallet;
+			sourceTree = "<group>";
+		};
+		D158DFB4204CF3AF002DC139 /* myWallet */ = {
+			isa = PBXGroup;
+			children = (
+				D158DFB5204CF3D7002DC139 /* GaneltWalletHeaderCell.h */,
+				D158DFB6204CF3D7002DC139 /* GaneltWalletHeaderCell.m */,
+				D158DFB8204D279E002DC139 /* GaneltWalletAllPriceCell.h */,
+				D158DFB9204D279E002DC139 /* GaneltWalletAllPriceCell.m */,
+				D158DFBB204D2A6B002DC139 /* GaneltWalletItemCell.h */,
+				D158DFBC204D2A6B002DC139 /* GaneltWalletItemCell.m */,
+			);
+			path = myWallet;
+			sourceTree = "<group>";
+		};
+		D1A289E02047F008006DB64C /* payOrder */ = {
+			isa = PBXGroup;
+			children = (
+				D1A289E12047F022006DB64C /* GaneltPayOrderViewController.h */,
+				D1A289E22047F022006DB64C /* GaneltPayOrderViewController.m */,
+			);
+			path = payOrder;
+			sourceTree = "<group>";
+		};
+		D1A289E42047F088006DB64C /* payOrder */ = {
+			isa = PBXGroup;
+			children = (
+				D1A289E52047F0AD006DB64C /* GaneltPayOrderPayStyleCell.h */,
+				D1A289E62047F0AD006DB64C /* GaneltPayOrderPayStyleCell.m */,
+				D1A289E82047F34F006DB64C /* GaneltPayOrderFormationCell.h */,
+				D1A289E92047F34F006DB64C /* GaneltPayOrderFormationCell.m */,
+			);
+			path = payOrder;
+			sourceTree = "<group>";
+		};
+		D1A289EB2047F631006DB64C /* 根据字符串长度获取尺寸 */ = {
+			isa = PBXGroup;
+			children = (
+				D1A289EC2047F631006DB64C /* LabelFitTool.h */,
+				D1A289ED2047F631006DB64C /* LabelFitTool.m */,
+				D1A289EE2047F631006DB64C /* SDAutoLayout */,
+			);
+			path = "根据字符串长度获取尺寸";
+			sourceTree = "<group>";
+		};
+		D1A289EE2047F631006DB64C /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D1A289EF2047F631006DB64C /* UITableView+SDAutoTableViewCellHeight.h */,
+				D1A289F02047F631006DB64C /* UITableView+SDAutoTableViewCellHeight.m */,
+				D1A289F12047F631006DB64C /* UIView+SDAutoLayout.h */,
+				D1A289F22047F631006DB64C /* UIView+SDAutoLayout.m */,
+			);
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		D1A289F62048009F006DB64C /* paySuccess */ = {
+			isa = PBXGroup;
+			children = (
+				D1A289F7204800B4006DB64C /* GaneltPaySuccessViewController.h */,
+				D1A289F8204800B4006DB64C /* GaneltPaySuccessViewController.m */,
+			);
+			path = paySuccess;
+			sourceTree = "<group>";
+		};
+		D1CFF35A204A857600B420E4 /* orderlist */ = {
+			isa = PBXGroup;
+			children = (
+				D1CFF35B204A859C00B420E4 /* GaneltMyOrderListItemCell.h */,
+				D1CFF35C204A859C00B420E4 /* GaneltMyOrderListItemCell.m */,
+				D1CFF368204A926E00B420E4 /* orderDetail */,
+			);
+			path = orderlist;
+			sourceTree = "<group>";
+		};
+		D1CFF35E204A8BEA00B420E4 /* orderDetail */ = {
+			isa = PBXGroup;
+			children = (
+				D1CFF35F204A8C0900B420E4 /* GaneltMyOrderDetailViewController.h */,
+				D1CFF360204A8C0900B420E4 /* GaneltMyOrderDetailViewController.m */,
+				D1CFF362204A8C2E00B420E4 /* GaneltOrderProgressViewController.h */,
+				D1CFF363204A8C2E00B420E4 /* GaneltOrderProgressViewController.m */,
+				D1CFF365204A8C3C00B420E4 /* GaneltOrderFormationViewController.h */,
+				D1CFF366204A8C3C00B420E4 /* GaneltOrderFormationViewController.m */,
+			);
+			path = orderDetail;
+			sourceTree = "<group>";
+		};
+		D1CFF368204A926E00B420E4 /* orderDetail */ = {
+			isa = PBXGroup;
+			children = (
+				D1CFF369204A929500B420E4 /* GaneltOrderDetailProgressHeaderCell.h */,
+				D1CFF36A204A929500B420E4 /* GaneltOrderDetailProgressHeaderCell.m */,
+				D1CFF36C204A941800B420E4 /* GaneltOrderDetailProgressItemTableViewCell.h */,
+				D1CFF36D204A941800B420E4 /* GaneltOrderDetailProgressItemTableViewCell.m */,
+				D158DFAA204CDFB8002DC139 /* GaneltOrderFormationItemCell.h */,
+				D158DFAB204CDFB8002DC139 /* GaneltOrderFormationItemCell.m */,
+				D158DFAD204CE22B002DC139 /* GaneltOrderFormationHeaderCell.h */,
+				D158DFAE204CE22B002DC139 /* GaneltOrderFormationHeaderCell.m */,
+			);
+			path = orderDetail;
+			sourceTree = "<group>";
+		};
+		D1FCB0022048FE7F0079A58D /* orderList */ = {
+			isa = PBXGroup;
+			children = (
+				D1FCB0032048FE980079A58D /* GaneltMyOrderListViewController.h */,
+				D1FCB0042048FE980079A58D /* GaneltMyOrderListViewController.m */,
+				D1CFF357204A828800B420E4 /* GaneltOrderListItemViewController.h */,
+				D1CFF358204A828800B420E4 /* GaneltOrderListItemViewController.m */,
+				D1CFF35E204A8BEA00B420E4 /* orderDetail */,
+			);
+			path = orderList;
+			sourceTree = "<group>";
+		};
+		D1FCB00620492F540079A58D /* customTime */ = {
+			isa = PBXGroup;
+			children = (
+				D1FCB00720492FF40079A58D /* GaneltCustomTimeView.h */,
+				D1FCB00820492FF40079A58D /* GaneltCustomTimeView.m */,
+			);
+			path = customTime;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22CF9B55201479EB001E1BB2 /* Ganelt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22CF9B82201479EB001E1BB2 /* Build configuration list for PBXNativeTarget "Ganelt" */;
+			buildPhases = (
+				4BC1424A8EEC6DF24A53236B /* [CP] Check Pods Manifest.lock */,
+				22CF9B52201479EB001E1BB2 /* Sources */,
+				22CF9B53201479EB001E1BB2 /* Frameworks */,
+				22CF9B54201479EB001E1BB2 /* Resources */,
+				E1110517A65436A2D8FF4A3D /* [CP] Embed Pods Frameworks */,
+				D166436967AA9E929CF7141A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ganelt;
+			productName = Ganelt;
+			productReference = 22CF9B56201479EB001E1BB2 /* Ganelt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22CF9B6D201479EB001E1BB2 /* GaneltTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22CF9B85201479EB001E1BB2 /* Build configuration list for PBXNativeTarget "GaneltTests" */;
+			buildPhases = (
+				22CF9B6A201479EB001E1BB2 /* Sources */,
+				22CF9B6B201479EB001E1BB2 /* Frameworks */,
+				22CF9B6C201479EB001E1BB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22CF9B70201479EB001E1BB2 /* PBXTargetDependency */,
+			);
+			name = GaneltTests;
+			productName = GaneltTests;
+			productReference = 22CF9B6E201479EB001E1BB2 /* GaneltTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22CF9B78201479EB001E1BB2 /* GaneltUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22CF9B88201479EB001E1BB2 /* Build configuration list for PBXNativeTarget "GaneltUITests" */;
+			buildPhases = (
+				22CF9B75201479EB001E1BB2 /* Sources */,
+				22CF9B76201479EB001E1BB2 /* Frameworks */,
+				22CF9B77201479EB001E1BB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22CF9B7B201479EB001E1BB2 /* PBXTargetDependency */,
+			);
+			name = GaneltUITests;
+			productName = GaneltUITests;
+			productReference = 22CF9B79201479EB001E1BB2 /* GaneltUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22CF9B4E201479EB001E1BB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = shenshen;
+				TargetAttributes = {
+					22CF9B55201479EB001E1BB2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					22CF9B6D201479EB001E1BB2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22CF9B55201479EB001E1BB2;
+					};
+					22CF9B78201479EB001E1BB2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22CF9B55201479EB001E1BB2;
+					};
+				};
+			};
+			buildConfigurationList = 22CF9B51201479EB001E1BB2 /* Build configuration list for PBXProject "Ganelt" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22CF9B4D201479EB001E1BB2;
+			productRefGroup = 22CF9B57201479EB001E1BB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22CF9B55201479EB001E1BB2 /* Ganelt */,
+				22CF9B6D201479EB001E1BB2 /* GaneltTests */,
+				22CF9B78201479EB001E1BB2 /* GaneltUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22CF9B54201479EB001E1BB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1577FBA2046ADB20055F1D0 /* allcity.json in Resources */,
+				22CF9B66201479EB001E1BB2 /* LaunchScreen.storyboard in Resources */,
+				22CF9C24201C1901001E1BB2 /* GaneltLoginViewController.xib in Resources */,
+				22CF9B63201479EB001E1BB2 /* Assets.xcassets in Resources */,
+				22CFA229205BF566001E1BB2 /* ganeltBanner.jpg in Resources */,
+				22CF9BD620176F87001E1BB2 /* GaneltMailChargeCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22CF9B6C201479EB001E1BB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22CF9B77201479EB001E1BB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BC1424A8EEC6DF24A53236B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ganelt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D166436967AA9E929CF7141A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ganelt/Pods-Ganelt-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/Pingpp/lib/Pingpp.bundle",
+				"${PODS_ROOT}/PingppAlipaySDK/AlipaySDK.bundle",
+				"${PODS_ROOT}/mob_sharesdk/SDK/ShareSDK/Support/Required/ShareSDK.bundle",
+				"${PODS_ROOT}/mob_sharesdk/SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.bundle",
+				"${PODS_ROOT}/mob_sharesdk/SDK/ShareSDK/Support/Optional/ShareSDKUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Pingpp.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlipaySDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDKUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ganelt/Pods-Ganelt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1110517A65436A2D8FF4A3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ganelt/Pods-Ganelt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22CF9B52201479EB001E1BB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CF9BA52014821B001E1BB2 /* GaneltParentsViewController.m in Sources */,
+				D1577F64204683B60055F1D0 /* GaneltAddNewAddressViewController.m in Sources */,
+				22CF9BC02014865C001E1BB2 /* TabBarButton.m in Sources */,
+				D1A289F52047F632006DB64C /* UIView+SDAutoLayout.m in Sources */,
+				22CF9BA82014822E001E1BB2 /* GaneltSendViewController.m in Sources */,
+				22CF9BE02018B447001E1BB2 /* UIScrollView+category.m in Sources */,
+				22CF9C412026F3FD001E1BB2 /* GaneltMKAnnotation.m in Sources */,
+				22CF9C2C201C1EB8001E1BB2 /* GaneltGoodsFormViewController.m in Sources */,
+				D1577F80204688CD0055F1D0 /* City.m in Sources */,
+				22CF9BC720148842001E1BB2 /* GaneltMailViewController.m in Sources */,
+				D158DFBD204D2A6B002DC139 /* GaneltWalletItemCell.m in Sources */,
+				D1FCB0052048FE980079A58D /* GaneltMyOrderListViewController.m in Sources */,
+				22CF9BB820148477001E1BB2 /* TabBarViewController.m in Sources */,
+				D1CFF36E204A941800B420E4 /* GaneltOrderDetailProgressItemTableViewCell.m in Sources */,
+				D1CFF36B204A929500B420E4 /* GaneltOrderDetailProgressHeaderCell.m in Sources */,
+				D1577F73204686C00055F1D0 /* DatePickView.m in Sources */,
+				22CF9C11201C122F001E1BB2 /* GaneltAFnetWorkManager.m in Sources */,
+				22CF9C0C2018C319001E1BB2 /* DESTool.m in Sources */,
+				D1577F67204684020055F1D0 /* GaneltMailAddNewAddressCell.m in Sources */,
+				22CF9C0D2018C319001E1BB2 /* MD5.m in Sources */,
+				22CF9BCA20163532001E1BB2 /* UIColor+categary.m in Sources */,
+				D1577F6F204686960055F1D0 /* CitySelectView.m in Sources */,
+				22CF9C28201C1AB2001E1BB2 /* JudgeMobileNumber.m in Sources */,
+				22CF9C372026E3D3001E1BB2 /* GaneltCoreLocationManager.m in Sources */,
+				22CF9BFB2018BD8E001E1BB2 /* GaneltBasicInformationViewController.m in Sources */,
+				D1CFF35D204A859C00B420E4 /* GaneltMyOrderListItemCell.m in Sources */,
+				22CF9C30201C1F14001E1BB2 /* GaneltGoodsFormHeadCell.m in Sources */,
+				D1A289F32047F632006DB64C /* LabelFitTool.m in Sources */,
+				D1CFF364204A8C2E00B420E4 /* GaneltOrderProgressViewController.m in Sources */,
+				22CF9C072018C2EC001E1BB2 /* Base64Util.m in Sources */,
+				D158DFBA204D279E002DC139 /* GaneltWalletAllPriceCell.m in Sources */,
+				22CF9BF32018BB3A001E1BB2 /* GaneltPersonAccount.m in Sources */,
+				22CF9BDA2018B2C6001E1BB2 /* GaneltMyCenterHeaderCell.m in Sources */,
+				D1577F6B2046866C0055F1D0 /* PickSelectview.m in Sources */,
+				D1A289E32047F022006DB64C /* GaneltPayOrderViewController.m in Sources */,
+				D1577FBE2046B03E0055F1D0 /* LYSideslipCell.m in Sources */,
+				22CF9BEA2018B814001E1BB2 /* NSString+Path.m in Sources */,
+				22CF9C1A201C166D001E1BB2 /* NSDictionary+extention.m in Sources */,
+				22CF9C33201C1FED001E1BB2 /* GaneltGoodsFormItemCollectionViewCell.m in Sources */,
+				22CF9C442026F944001E1BB2 /* GaneltCustomMKAnnotationView.m in Sources */,
+				22CF9BD420176F78001E1BB2 /* GaneltMailChargeCell.m in Sources */,
+				D1A289F9204800B4006DB64C /* GaneltPaySuccessViewController.m in Sources */,
+				D1A289EA2047F34F006DB64C /* GaneltPayOrderFormationCell.m in Sources */,
+				2207CD6420627F2100CF4E76 /* GaneltMySendFormationView.m in Sources */,
+				D1A289F42047F632006DB64C /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				22CF9C1E201C180A001E1BB2 /* MBProgressHUDManager.m in Sources */,
+				22CFA231205CE941001E1BB2 /* GaneltSetItemCell.m in Sources */,
+				22CF9BCE20176A48001E1BB2 /* GaneltMailThingCell.m in Sources */,
+				D158DFAF204CE22B002DC139 /* GaneltOrderFormationHeaderCell.m in Sources */,
+				D1577F5D204680330055F1D0 /* GaneltAddressListViewController.m in Sources */,
+				D1CFF359204A828800B420E4 /* GaneltOrderListItemViewController.m in Sources */,
+				D158DFAC204CDFB8002DC139 /* GaneltOrderFormationItemCell.m in Sources */,
+				22CF9C062018C2EC001E1BB2 /* GTMBase64.m in Sources */,
+				22CF9BAE20148253001E1BB2 /* GaneltMyCenterViewController.m in Sources */,
+				D1577FB420469E770055F1D0 /* GaneltCoreDataManager.m in Sources */,
+				D13343CA2047E6890043D35E /* GaneltGoodsOtherFormationCell.m in Sources */,
+				22CF9BF02018BA78001E1BB2 /* GaneltUserFormation.m in Sources */,
+				22CF9B69201479EB001E1BB2 /* main.m in Sources */,
+				22CF9BC3201486AB001E1BB2 /* BaseNavigationViewController.m in Sources */,
+				D1577F612046816F0055F1D0 /* GaneltMailAddressListCell.m in Sources */,
+				D1FCB00920492FF40079A58D /* GaneltCustomTimeView.m in Sources */,
+				D1577F7F204688CD0055F1D0 /* Address.m in Sources */,
+				22CF9BD120176D92001E1BB2 /* GaneltMailAddressCell.m in Sources */,
+				22CF9BFF2018C144001E1BB2 /* GaneltAccountHeaderView.m in Sources */,
+				D158DFB3204CF341002DC139 /* GaneltMyWalletViewController.m in Sources */,
+				D158DFB7204CF3D7002DC139 /* GaneltWalletHeaderCell.m in Sources */,
+				D1577FB020469E1F0055F1D0 /* GaneltAddressFormationModel.m in Sources */,
+				D1CFF361204A8C0900B420E4 /* GaneltMyOrderDetailViewController.m in Sources */,
+				D1577F81204688CD0055F1D0 /* Area.m in Sources */,
+				D1577FB82046A11E0055F1D0 /* GaneltAddressEntityManager.m in Sources */,
+				D1577F7E204688CD0055F1D0 /* Province.m in Sources */,
+				22CF9BDD2018B355001E1BB2 /* GaneltMyCenterItemListCell.m in Sources */,
+				D1A289E72047F0AD006DB64C /* GaneltPayOrderPayStyleCell.m in Sources */,
+				D1CFF367204A8C3C00B420E4 /* GaneltOrderFormationViewController.m in Sources */,
+				22CF9C17201C14EB001E1BB2 /* NSDictionary+GaneltCode.m in Sources */,
+				D1577F8420468A110055F1D0 /* GaneltDetailAddressCell.m in Sources */,
+				D1577FAD20469D7B0055F1D0 /* Model.xcdatamodeld in Sources */,
+				22CF9B5B201479EB001E1BB2 /* AppDelegate.m in Sources */,
+				22CF9C23201C1901001E1BB2 /* GaneltLoginViewController.m in Sources */,
+				22CFA22D205CE822001E1BB2 /* GaneltSetingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22CF9B6A201479EB001E1BB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CF9B73201479EB001E1BB2 /* GaneltTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22CF9B75201479EB001E1BB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CF9B7E201479EB001E1BB2 /* GaneltUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22CF9B70201479EB001E1BB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22CF9B55201479EB001E1BB2 /* Ganelt */;
+			targetProxy = 22CF9B6F201479EB001E1BB2 /* PBXContainerItemProxy */;
+		};
+		22CF9B7B201479EB001E1BB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22CF9B55201479EB001E1BB2 /* Ganelt */;
+			targetProxy = 22CF9B7A201479EB001E1BB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22CF9B64201479EB001E1BB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22CF9B65201479EB001E1BB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22CF9B80201479EB001E1BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22CF9B81201479EB001E1BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22CF9B83201479EB001E1BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D859229E1E6DF6BEBE700E48 /* Pods-Ganelt.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42P7WD73SY;
+				GCC_PREFIX_HEADER = Ganelt/PrefixHeader.pch;
+				INFOPLIST_FILE = Ganelt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henoo.apn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		22CF9B84201479EB001E1BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAE5EB68E8189EE2AB3FFED9 /* Pods-Ganelt.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42P7WD73SY;
+				GCC_PREFIX_HEADER = Ganelt/PrefixHeader.pch;
+				INFOPLIST_FILE = Ganelt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henoo.apn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		22CF9B86201479EB001E1BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GaneltTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zss.GaneltTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ganelt.app/Ganelt";
+			};
+			name = Debug;
+		};
+		22CF9B87201479EB001E1BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GaneltTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zss.GaneltTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ganelt.app/Ganelt";
+			};
+			name = Release;
+		};
+		22CF9B89201479EB001E1BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GaneltUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zss.GaneltUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ganelt;
+			};
+			name = Debug;
+		};
+		22CF9B8A201479EB001E1BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GaneltUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zss.GaneltUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ganelt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22CF9B51201479EB001E1BB2 /* Build configuration list for PBXProject "Ganelt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22CF9B80201479EB001E1BB2 /* Debug */,
+				22CF9B81201479EB001E1BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22CF9B82201479EB001E1BB2 /* Build configuration list for PBXNativeTarget "Ganelt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22CF9B83201479EB001E1BB2 /* Debug */,
+				22CF9B84201479EB001E1BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22CF9B85201479EB001E1BB2 /* Build configuration list for PBXNativeTarget "GaneltTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22CF9B86201479EB001E1BB2 /* Debug */,
+				22CF9B87201479EB001E1BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22CF9B88201479EB001E1BB2 /* Build configuration list for PBXNativeTarget "GaneltUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22CF9B89201479EB001E1BB2 /* Debug */,
+				22CF9B8A201479EB001E1BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D1577FAB20469D7B0055F1D0 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D1577FAC20469D7B0055F1D0 /* Model.xcdatamodel */,
+			);
+			currentVersion = D1577FAC20469D7B0055F1D0 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 22CF9B4E201479EB001E1BB2 /* Project object */;
+}

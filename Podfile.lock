@@ -1,0 +1,86 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Masonry (1.1.0)
+  - MBProgressHUD (0.9.2)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.15.1)
+  - mob_sharesdk (4.0.8):
+    - mob_sharesdk/ShareSDK (= 4.0.8)
+    - MOBFoundation
+  - mob_sharesdk/ShareSDK (4.0.8):
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKExtension (4.0.8):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/QQ (4.0.8):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo (4.0.8):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/WeChat (4.0.8):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKUI (4.0.8):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - MOBFoundation (3.1.0)
+  - Pingpp/Alipay (2.2.20):
+    - Pingpp/Core
+    - PingppAlipaySDK (~> 15.5)
+  - Pingpp/Core (2.2.20)
+  - Pingpp/UnionPay (2.2.20):
+    - Pingpp/Core
+  - PingppAlipaySDK (15.5.0)
+  - SDWebImage (4.2.3):
+    - SDWebImage/Core (= 4.2.3)
+  - SDWebImage/Core (4.2.3)
+  - WRNavigationBar (1.0.9)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - Masonry
+  - MBProgressHUD (~> 0.9.1)
+  - MJExtension
+  - MJRefresh
+  - mob_sharesdk
+  - mob_sharesdk/ShareSDKExtension
+  - mob_sharesdk/ShareSDKPlatforms/QQ
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+  - mob_sharesdk/ShareSDKPlatforms/WeChat
+  - mob_sharesdk/ShareSDKUI
+  - Pingpp/Alipay (~> 2.2.18)
+  - Pingpp/UnionPay (~> 2.2.18)
+  - SDWebImage (~> 4.0)
+  - WRNavigationBar (~> 1.0.9)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: 5f8552bc25ca8751c010f621c1098dbdaacbccd6
+  mob_sharesdk: 5cb804ce6c5c04a3092de0c1de6c51823270548d
+  MOBFoundation: 2d0799b6ad2677fa28e4cf5bcb1de28b34788110
+  Pingpp: c2f6bf1f5740276df9cbccd8c58b2bc9576927a5
+  PingppAlipaySDK: aa5a2fe0d61e12c34366b0269a89bc6609aea95a
+  SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
+  WRNavigationBar: 8e02b9701431fa1ed7ae72bd4370103f0b5e4b5d
+
+PODFILE CHECKSUM: f9599c6cc0b2bbb608d9f2b1d6d3084919541e39
+
+COCOAPODS: 1.4.0
